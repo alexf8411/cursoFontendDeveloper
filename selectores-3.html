@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectores 3</title>
+    <style>
+        * {
+            background: #FDEBD0;
+        }
+        p {
+            color : #B03A2E;
+        }
+        p:hover {
+            color : #3498DB;
+        }
+        div p:nth-child(2) {
+            color: salmon;
+        }
+        div p:nth-child(2):hover {
+            color: #1ABC9C;
+        }
+        p::first-letter{
+            color: #1A5276;
+        }
+        p::before {
+            content: "✨";
+        }
+        p::after {
+            content: "🐱‍🏍";
+        }
+        ::placeholder {
+            color: tomato;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Hola Alex!</p>
+    <div>
+        <p>Te </p>
+        <p>deseo </p>
+        <p>el </p>
+        <p>mejor </p>
+        <p>2022 </p>
+    </div>
+    <input type="text" placeholder="name">
+</body>
+</html>

@@ -1,2 +1,2 @@
-# cursoFontendDeveloper
-Curso de Fontend Developer para platzi 
+# cursoFrontendDeveloper
+Curso de Frontend Developer para platzi 
