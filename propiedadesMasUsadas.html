@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propiedades Mas Usadas</title>
+    <style>
+      section {
+        width: 100%;
+        display: flex;
+        justify-content: center; /* se centre*/
+      }
+      .card {
+        width: 300px;
+        height: 300px;
+        background: palegreen;
+        border-radius: 20px;
+        overflow: hidden; /* Todo lo que se salga lo corte*/
+      }
+      .card img {
+        width: 100%; /* La imagen se adapte a la card*/
+      }
+      .card p {
+          text-align: center;
+      }
+      .card p:nth-child(2){
+          color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/57409/ford-mustang-stallion-red-57409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="Ford Mustang Rojo"/>
+        <p>Ford Mustang Rojo</p>
+        <p>Cámara: Canon EOS 600D</p>
+      </div>
+    </section>
+  </body>
+</html>
